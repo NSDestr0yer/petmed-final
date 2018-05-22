@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+  <domain-config cleartextTrafficPermitted="false">
+    <domain includeSubdomains="true">github.io</domain>
+    <pin-set>
+      <pin digest="SHA-256">sm6xYAA3V3PtiyWIX6G/FY2kgHCRzR1k9XndcF5A0mg=</pin>
+      <pin digest="SHA-256">2kOi4HdYYsvTR1sTIR7RHwlf2SescTrpza9ZrWy7poQ=</pin>
+    </pin-set>
+
+    <trustkit-config enforcePinning="true" />
+
+  </domain-config>
+</network-security-config>
