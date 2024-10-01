@@ -1,0 +1,37 @@
+{
+    "reportInfo": {
+        "reportID": 123,
+        "reportDetails": "Report of an illegal dog-fighting ring."
+    },
+    "internalInfo": {
+        "internalID": "AAAB",
+        "internalStatus": "Started"
+    },
+    "externalInfo": {
+        "thirdPartyID": "AppId-1"
+    },
+    "evidenceList": [
+        {
+            "evidenceID": 1,
+            "evidenceDescription": "Report of house with lots of guests arriving with Dobermins, Pitbulls and Rottweilers at odd hours"
+        },
+        {
+            "evidenceID": 2,
+            "evidenceDescription": "Ontario Solve a Natural Resource Case - officer sent tip of illegal hunting suspect that matches the same address as the suspect."
+        },
+        {
+            "evidenceID": 3,
+            "evidenceDescription": "Suspect info retreived from SPCA expulsion report.",
+            "suspectDetails": [
+                {
+                    "name": "Jane Doe",
+                    "address": "123 Any Street"
+                }, 
+                {
+                    "name": "John Doe",
+                    "address": "456 Any Street"
+                }
+            ]
+        }
+    ]
+}
